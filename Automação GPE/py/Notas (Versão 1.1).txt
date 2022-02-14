@@ -1,0 +1,16 @@
+Features added on Version 1.1
+
+    1. Fazer upload de todos os dados para formadora.
+    1.1 Considerado que Formadora 7 possui dado extra SetupOff (Setup off0line). Já alterado .xlsm para tambem incluir este na criação do .xlsx base para carga
+
+    2. Checklist para formadoras devem conter "posição da solda" marcado como "sim" na análise
+
+    3. Alterado a forma que o código faz a marcação do tipo de operação. Não será mais criada paridades que contenham Formadora e Perfiladeira como operação 2 ao mesmo tempo
+
+Features to add on Version 1.1
+
+    1. Adicionar controle para seleção do ano fiscal mais recente disponivel no GPE.
+
+And Beyond:
+
+    1. Automação completa do GPE, podendo realizar tudo atravéz do Cronus.

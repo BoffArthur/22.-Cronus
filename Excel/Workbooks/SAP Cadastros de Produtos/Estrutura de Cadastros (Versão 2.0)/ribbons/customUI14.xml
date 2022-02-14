@@ -1,0 +1,22 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="TabEstrutura" label="Estrutura P01" insertBeforeMso="TabHome" >
+        <group id="GroupNavegar" label="Navegar"> 
+          <button id="btn5" label="Estrutura de Produto" imageMso="OrganizationChartSelectAllAssistants" size="large" onAction="Ribbon.btn5" />
+          <button id="btn6" label="Estrutura de M.P." imageMso="ShapeDonut" size="normal" onAction="Ribbon.btn6" />
+          <button id="btn7" label="Listas de Dados" imageMso="DataFormSource" size="normal" onAction="Ribbon.btn7" />
+        </group>
+        <group id="GoupInserir" label="Inserir">
+          <button id="btn1" label="Nova Estrutura" imageMso="TableRowsInsertAboveExcel" size="large" onAction="Ribbon.btn1" screentip="Inserir uma nova estrutura de cadastro" />
+          <button id="btn122" label="Dados" imageMso="CitationMark" size="large" onAction="Ribbon.btnDDS" screentip="Inserir dados referentes a respectiva celula ativa" />
+        </group>
+        <group id="GroupCaculos" label="Cálculos">
+          <button id="btn2" label="Peso Linear" imageMso="SetPertWeights" size="normal" onAction="Ribbon.btn2" />
+          <button id="btn3" label="Tempo de Corte" imageMso="HeaderFooterCurrentTimeInsert" size="normal" onAction="Ribbon.btn3" />
+          <button id="btn4" label="Velocidades" imageMso="RightArrow2" size="normal" onAction="Ribbon.btn4" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
