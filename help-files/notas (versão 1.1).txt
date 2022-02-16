@@ -8,10 +8,11 @@ Notas atualização 1.1:
 2. Planilha de Liberação de Cadastros: ajustada subrotina SALVAR, agora em vez de limpar os dados do range A:A ela vai deletar este range. Somente limpar estava gerando certos erros, Excel continuava a entender como células ativas, mesmo não sendo.
 3. Estrutura de cadastros: Ajustar o nome não reconhecido "IMPORTADO" para o correto "IMPORTADA" no campo "ORIGEM DA CHAPA".
 4. Estudos de Viabilidades: Ajustado a variant "XFileName" do tipo String para Variant. Isto estava gerando problemas para salvar o Workbook no formato desejado.
+5. Estudos de Viabilidades: Função "Gerar arquivo para carga" não reconhecia corretamente qual a tira que deveria ser usada para carga (entre Conformação comum e DirectForming).
+6. Add-In installer: corrigido problema que gerava ao tentar executar e instalar o Cronus.
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adionar fichas técnicas de perfis Valeno.
-2. Add-In installer: instalador do add-in no Excel não funciona. Não há relatórios de erro, portanto motivo ainda obscuro.
 3. Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
 
 >And Beyond:
