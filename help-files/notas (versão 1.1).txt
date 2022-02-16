@@ -1,0 +1,16 @@
+Notas atualização 1.1:
+
+>Novos Recursos:
+1.
+
+>Correção de recursos:
+1. Botão "Ajuda" antes disponivel no Workbook "Estudos de Viabilidade" foi transferido ao Cronus Add-In. Isto faz seu acesso ser mais prático.
+
+>Correção de bugs:
+1. Estrutura de cadastros: Ajustar o nome não reconhecido "IMPORTADO" para o correto "IMPORTADA" no campo "ORIGEM DA CHAPA". Identificado e corrigido.
+
+>Correções/Recursos em espera:
+1. Fichas Técnicas: Adionar fichas técnicas de perfis Valeno.
+2. Add-In installer: instalador do add-in no Excel não funciona. Não há relatórios de erro, portanto motivo ainda obscuro.
+3. Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
+

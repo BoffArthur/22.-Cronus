@@ -31,9 +31,6 @@
         <group id="customGroup2" label="Automação">
           <button id="btn1" label="Gerar Arquivo de Carga" screentip="Gerar novo arquivo para carga com Cronus" imageMso="PublishToPdfOrEdoc" size="large" onAction="MyRibbon.btn1" />
         </group>
-        <group id="GroupHelp"> 
-          <button id="Help" label="Ajuda" imageMso="CLViewDialogHelpID" size="large" onAction="MyRibbon.help" />
-        </group>
       </tab>
     </tabs>
   </ribbon>

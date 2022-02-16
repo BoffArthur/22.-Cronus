@@ -55,6 +55,9 @@
           <separator id="spr-excel2" />
           <button id="btn-GR4Excel4" label="Estudos de Viabilidades" imageMso="SignatureLineInsert" size="large" onAction="MyRibbon.CallOpenWBEstudoViabilidade" screentip="Criar novo estudo de viabilidade" />
         </group>
+        <group id="GroupHelp"> 
+          <button id="Help" label="Ajuda" imageMso="CLViewDialogHelpID" size="large" onAction="MyRibbon.help" />
+        </group>
       </tab>
     </tabs>
   </ribbon>
