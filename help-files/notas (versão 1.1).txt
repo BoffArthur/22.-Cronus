@@ -3,14 +3,16 @@ Notas atualização 1.1:
 >Novos Recursos:
 1.
 
->Correção de recursos:
+>Correção de recursos e bugs:
 1. Botão "Ajuda" antes disponivel no Workbook "Estudos de Viabilidade" foi transferido ao Cronus Add-In. Isto faz seu acesso ser mais prático.
-
->Correção de bugs:
-1. Estrutura de cadastros: Ajustar o nome não reconhecido "IMPORTADO" para o correto "IMPORTADA" no campo "ORIGEM DA CHAPA". Identificado e corrigido.
+2. Planilha de Liberação de Cadastros: ajustada subrotina SALVAR, agora em vez de limpar os dados do range A:A ela vai deletar este range. Somente limpar estava gerando certos erros, Excel continuava a entender como células ativas, mesmo não sendo.
+3. Estrutura de cadastros: Ajustar o nome não reconhecido "IMPORTADO" para o correto "IMPORTADA" no campo "ORIGEM DA CHAPA".
+4. Estudos de Viabilidades: Ajustado a variant "XFileName" do tipo String para Variant. Isto estava gerando problemas para salvar o Workbook no formato desejado.
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adionar fichas técnicas de perfis Valeno.
 2. Add-In installer: instalador do add-in no Excel não funciona. Não há relatórios de erro, portanto motivo ainda obscuro.
 3. Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
 
+>And Beyond:
+1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
