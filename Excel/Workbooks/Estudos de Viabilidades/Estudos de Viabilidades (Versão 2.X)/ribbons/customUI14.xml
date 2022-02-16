@@ -28,9 +28,6 @@
           <button id="btn-id2" label="RollForming e A.O." screentip="Criar Novo estudo sobre RollForming ou After Operation" image="rollforming" size="large" onAction="MyRibbon.btn2" />
           <button id="btn-id3" label="Conjuntos Soldados" screentip="Criar Novo estudo sobre Conjuntos Soldados" image="soldagem" size="large" onAction="MyRibbon.btn3" />
         </group>
-        <group id="customGroup2" label="Automação">
-          <button id="btn1" label="Gerar Arquivo de Carga" screentip="Gerar novo arquivo para carga com Cronus" imageMso="PublishToPdfOrEdoc" size="large" onAction="MyRibbon.btn1" />
-        </group>
       </tab>
     </tabs>
   </ribbon>

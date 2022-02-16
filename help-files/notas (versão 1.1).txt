@@ -13,6 +13,7 @@ Notas atualização 1.1:
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adionar fichas técnicas de perfis Valeno.
+2. Estudos de Viabilidade> Conjuntos Soldados: Adicionar o campo para preenchimento de preço de pintura ou galvanização, visando o arquivo para carga com Cronus.
 3. Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
 
 >And Beyond:
