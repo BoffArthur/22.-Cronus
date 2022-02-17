@@ -1,2 +1,2 @@
-# 22.-Cronus
+# Cronus
 This is an repository for all Cronus archives.
