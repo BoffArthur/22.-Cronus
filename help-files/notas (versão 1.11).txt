@@ -1,0 +1,19 @@
+Notas atualização 1.11:
+
+>Novos Recursos:
+1. SAP Script Connection> Not Aplied> Alterar Bitola (Variante): Adicionado módulo não aplicado para alterar a bitla dentro da variante (MRP3).
+
+>Correção de recursos e bugs:
+1. Liberação de Cadastros: Alterada Userform para lista de emails ser editavel pelo usuário final.
+
+>Correções/Recursos em espera:
+1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+2. Estudos de Viabilidades: Adicionar recurso para impressão automatica do PDF ao gerar o arquivo de carga com Cronus.
+3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+4. Estrutura de Cadastros: Adicionar legenda de cores para auxiliar o usuário no preenchimento dos campos.
+5. SAP Script Connection: Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+
+>And Beyond:
+1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
+2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistencia" para também verificar os dados preenchidos na estrutura em si.

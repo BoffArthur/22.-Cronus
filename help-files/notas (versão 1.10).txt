@@ -16,13 +16,15 @@ OBS: As versão serão controladas com 3 tipos de atualizações (1°.2°.3° ou
 6. Add-In installer: corrigido problema que gerava ao tentar executar e instalar o Cronus.
 7. Estudos de Viabilidade: Ajustada porcentagem de perda dos conjuntos soldados de 1,50% para 1,0%.
 8. Estudos de Viabilidade> Conjuntos Soldados: Adicionar o campo para preenchimento de preço de pintura ou galvanização, visando o arquivo para carga com Cronus.
+9. SAP Connection> Alterar bloqueio geral: Ajustada fórmula USER para especifico do workbook TWUSER.
+10. SAP Connection> Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
+11. Estudos de viabilidades: Agora a janela de inserção de novo estudo somente permite colocar números, previnindo assim que o usuário coloque caracteres incorretos.
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
 2. Estudos de Viabilidades: Adicionar recurso para impressão automatica do PDF ao gerar o arquivo de carga com Cronus.
-3. Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
-4. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
-5. Estrutura de Cadastros: Adicionar legenda de cores para auxiliar o usuário no preenchimento dos campos.
+3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+4. Estrutura de Cadastros: Adicionar legenda de cores para auxiliar o usuário no preenchimento dos campos.
 
 >And Beyond:
 1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
