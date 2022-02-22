@@ -2,16 +2,18 @@ Notas atualização 1.11:
 
 >Novos Recursos:
 1. SAP Script Connection> Not Aplied> Alterar Bitola (Variante): Adicionado módulo não aplicado para alterar a bitla dentro da variante (MRP3).
+2. Estudos de Viabilidades: Adicionado botão para gerar arquivo PDF dos estudos feitos.
 
 >Correção de recursos e bugs:
 1. Liberação de Cadastros: Alterada Userform para lista de emails ser editavel pelo usuário final.
 2. Add-In>Inserir Estilos: Pasta padrão dos estilos foi movida ao diretório "$\Excel\Add-In\Cronus ™\ Cronus_styles models for Excel.xlsm"
 3. Estrutura de Cadastros: Propriedade da aba CAS P01 alterada para VeryHidden. Em atuazações futuras a possivel exclusão está sendo avaliada.
 4. Estrutura de Cadastros: Adicionada legenda de cores para auxiliar o usuário no preenchimento dos campos.
+5. Estudos de Viabilidades: Corrigido botão para gerar o arquivo de carga com Cronus que não estava aparecendo na versão 1.10.
+6. Estudos de Viabilidades: Corrigida tela para seleção dos itens a serem gerados. Agora em vez de digitar o usuário tem que selecionar o item que desejar.
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
-2. Estudos de Viabilidades: Adicionar recurso para impressão automatica do PDF ao gerar o arquivo de carga com Cronus.
 3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
 4. SAP Script Connection: Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
 
