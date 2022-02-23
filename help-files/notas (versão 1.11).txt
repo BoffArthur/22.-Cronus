@@ -11,6 +11,10 @@ Notas atualização 1.11:
 4. Estrutura de Cadastros: Adicionada legenda de cores para auxiliar o usuário no preenchimento dos campos.
 5. Estudos de Viabilidades: Corrigido botão para gerar o arquivo de carga com Cronus que não estava aparecendo na versão 1.10.
 6. Estudos de Viabilidades: Corrigida tela para seleção dos itens a serem gerados. Agora em vez de digitar o usuário tem que selecionar o item que desejar.
+7. SAP Connection> [MM01 PROF], [ZM01 AO], [ZM01 PURLINS], [MM01 PURLINS PROF]: 
+7.1 Ajustado campo "Grupo Classe Contabil" (ctxtMVKE-KTGRM) onde ele não alterava o valor "01" para "20" quando o item sendo cadastrado era do setor 68-Beneficiamento (serviço)
+7.2 Atualizados os estilos de cores padrão.
+8. Liberação de Cadastros: Corrigido gerador da numeração dos arquivos e títulos que estava com divergencias, gerando sempre o mesmo número 1641.
 
 >Correções/Recursos em espera:
 1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
