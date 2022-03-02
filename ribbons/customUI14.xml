@@ -35,25 +35,27 @@
             <button id="btn-GR2Modificar4" label="N.C.M." imageMso="DiagramStylesClassic" onAction="MyRibbon.CallMM02NCM" screentip="Alterar NCM" />
             <button id="btn-GR2Modificar5" label="Hierarquia de Produto" imageMso="ModuleInsert" onAction="MyRibbon.CallMM02Hierarquia" screentip="Alterar Hierarquia de Produto" />
             <button id="btn-GR2Modificar6" label="Cliente Responsável (Variante)" imageMso="AddOrRemoveAttendees" onAction="MyRibbon.CallMM02ClienteResponsavel" screentip="Alterar cliente responsavel" />
+            <button id="btn-GR2Modificar12" label="Depósito de Produção" imageMso="RelationshipDesignAllRelationships" onAction="MyRibbon.CallMM02DEPPROD" screentip="Alterar depósito de produção interno e externo da MRP2" />
           </menu>
           <menu id="menu-id2" size="large" label="CU60" imageMso="AdpDiagramAddTable" screentip="Modificar, Atualizar e Consultar tabelas da CU60" >
             <menuSeparator id="separator-id1" title="Modificar Existente" />
             <button id="btn-GR2Modificar7" label="Largura (LNTR)" imageMso="DatabaseAccessBackEnd" onAction="MyRibbon.CallCU60AlterarLarguras" screentip="Alterar as larguras de tira e/ou bobina por LNTR" />
             <button id="btn-GR2Modificar8" label="Prematerial (LNTR)" imageMso="FileCompactAndRepairDatabase" onAction="MyRibbon.CallCU60AlterarMP" screentip="Alterar prematerial (VMAT) por LNTR" />
             <menuSeparator id="separator-id2" title="Adicionar Novo" />
-            <button id="btn-GR2Modificar9" label="LNTR material componente" imageMso="FileSave" onAction="MyRibbon.CallMM02ClienteResponsavel" screentip="Adicionar novo LNTR na tabela de materiais componentes" />
+            <button id="btn-GR2Modificar9" label="LNTR Z_LNP_TST_058X" imageMso="TabOrder" onAction="MyRibbon.CallCU60AdicionarMP" screentip="Adicionar novo LNTR na tabela de materiais componentes" />
+            <button id="btn-GR2Modificar10" label="LNTR Z_LNP_ANL_TST_058X" imageMso="ObjectNudgeRight" onAction="MyRibbon.CallCU60AdicionarVP" screentip="Adicionar novo LNTR na tabela de versões de produção" />
           </menu>
         </group>
         <group id="GourpSAPRelatorio" label="SAP - Relatórios"> 
           <button id="btn-GR3Relatorio1" label="Curto Create" imageMso="BlackAndWhite" size="large" onAction="MyRibbon.CallCURTOCREATE" screentip="Create curto from ERP to APO" />
         </group>
         <group id="GroupExcelWB" label="Excel - Workbooks">
-          <button id="btn-GR4Excel1" label="Estrutura de Cadastros" imageMso="MultilevelListGallery" size="large" onAction="MyRibbon.CallOpenWBEstrutura" screentip="Criar uma nova estrutura de cadastros" />
+          <button id="btn-GR4Excel1" label="Estrutura de Cadastros" imageMso="XmlSchema" size="large" onAction="MyRibbon.CallOpenWBEstrutura" screentip="Criar uma nova estrutura de cadastros" />
           <button id="btn-GR4Excel2" label="Liberação de Cadastros" imageMso="SendStatusReport" size="large" onAction="MyRibbon.CallOpenWBEnviarLiberar" screentip="Abrir WB para enviar novos cadastros para serem liberados" />
           <separator id="spr-excel1" />
-          <button id="btn-GR4Excel3" label="Ficha Técnica (RF)" imageMso="FileCompactAndRepairDatabase" size="large" onAction="MyRibbon.CallOpenWBFichaTecnicaRF" screentip="Criar nova ficha técnica para itens de RollForming" />
+          <button id="btn-GR4Excel3" label="Ficha Técnica (Tubos)" imageMso="ViewsReportView" size="large" onAction="MyRibbon.CallOpenWBFichaTecnicaRF" screentip="Criar nova ficha técnica para Tubos de RollForming" />
           <separator id="spr-excel2" />
-          <button id="btn-GR4Excel4" label="Estudos de Viabilidades" imageMso="SignatureLineInsert" size="large" onAction="MyRibbon.CallOpenWBEstudoViabilidade" screentip="Criar novo estudo de viabilidade" />
+          <button id="btn-GR4Excel4" label="Estudos de Viabilidades" imageMso="ReviseContents" size="large" onAction="MyRibbon.CallOpenWBEstudoViabilidade" screentip="Criar novo estudo de viabilidade" />
         </group>
         <group id="GroupHelp"> 
           <button id="Help" label="Ajuda" imageMso="CLViewDialogHelpID" size="large" onAction="MyRibbon.help" />
