@@ -8,7 +8,8 @@ Notas atualização 1.12:
     2. SAP Scipt Connection:
     2.1 Adicionar LNTR (Z_LNP_ANL_TST_058X): Transferido módulo para os Aplicados, agora pode ser utilizado pelo Add-In.
     2.2 Adicionar LNTR (Z_LNP_TST_058X): Transferido módulo para os Aplicados, agora pode ser utilizado pelo Add-In.
-    2.3 Alterar Depósito de Produção (MRP2): módulo aplicado adicionado a lista de utilizaveis do Add-In.
+    2.3 Alterar Depósito de Produção (MRP2): módulo aplicado adicionado a lista de utilizáveis do Add-In.
+    2.4 Criar LNTR: Aumentado o número máximo de itens que podem ser cadastrados em uma única rodada. Passou de 50 para 300 execuções.
 
 >Correção de recursos e bugs:
     0. Add-In Cronus ™
@@ -26,11 +27,18 @@ Notas atualização 1.12:
     3.1 Corrigido bug que quando um segundo novo projeto era criado, o campo de digitar o número não estava selecionado por padrão.
     3.2 Ajustado hyperlink que é criado com um novo estudo.
 
+    4. Estrutura de Cadastros:
+    4.1 Ajustado UserForm para cálculo do peso linear: Agora por padrão não é marcado "Descontar Costura" e não há valores nos campos para preenchimento.
+    4.2 Variavel Matriz de Setup: Ajustado valores de Geometria que estavam em desacordo com o sistema (espaçamento extre no final dos nomes)
+    4.3 Bitola de Produção: Ajustada fórmula para busca da denominação da bitola, onde a referênica estava nas colunas erradas.
+
+    5. Carga GPEAutomation: 
+    5.1 Corrigido bug em que o usuário fica logado na ultima carga feita. Trocar a opção de "Fechar GPE" para "Logoff do GPE".
+
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
     3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
     4. SAP Script Connection: Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
-    5. Carga GPEAutomation: Corrigir bug em que o usuário fica logado na ultima atualização feita. Trocar a opção de "Fechar GPE" para "Logoff do GPE".
 
 >And Beyond:
     1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
