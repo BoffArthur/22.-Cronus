@@ -1,0 +1,28 @@
+Notas atualização 1.13:
+
+Control
+Resource
+Objects
+N 
+Union
+Sistems
+
+>Novos Recursos:
+
+
+>Correção de recursos e bugs:
+    1. SAP Scipt Connection
+    1.1 Em todos os workbooks foram corrigidos a variante AutomaticRun do tipo String para Variant.
+    1.2 Em todos os workbooks foram corrigidos os antigos nomes CAS para Cronus.
+
+>Correções/Recursos em espera:
+    1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+    3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+    4. SAP Script Connection:
+    4.1 Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+    4.2 Adicionar seção "ATual Como Fonte" para realizar a expansão de centros e expansão de canais de distribuição.
+
+>And Beyond:
+    1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
+    2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+    3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistencia" para também verificar os dados preenchidos na estrutura em si.

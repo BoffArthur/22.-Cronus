@@ -17,14 +17,20 @@
       </tab>
       <tab id="TabCronus" label="Cronus ™" insertAfterMso="TabDeveloper" >
         <group id="GroupSAPCriar1" label="SAP - Criar MM01/ZM01" >
-          <menu id="menu-1" size="large" imageMso="PagePreviousWord" label="Atual como fonte" screentip="Usar Workbook atual como fonte para novos cadastros" >
+          <menu id="menu-1" size="large" imageMso="ExportTextFile" label="Atual como fonte" screentip="Usar Workbook atual como fonte para novos cadastros" >
             <button id="btn-GR1Criar3" label="Prematerial" imageMso="SourceControlAddDatabase" onAction="MyRibbon.CallCriarMP" screentip="Criar novo prematerial (bobina+tira)" /> 
             <button id="btn-GR1Criar1" label="PROF" imageMso="_3DDirectionGalleryClassic" onAction="MyRibbon.CallCriarPROF" screentip="Criar novo material PROF (RollForming)" />
             <button id="btn-GR1Criar2" label="After Operation" imageMso="SmartArtAddShapeAbove" onAction="MyRibbon.CallCriarAO" screentip="Criar novo material A.O. (Agregados)" />  
             <button id="btn-GR1Criar5" label="PURLINS" imageMso="ComAddInsDialog" onAction="MyRibbon.CallCriarPURLINS" screentip="Criar novo item de PURLINS" />
           </menu>
-          <menu id="menu-2" size="large" imageMso="AdpDiagramAddRelatedTables" label="Novo" screentip="Criar novo item, sem fontes de consulta" >
+          <menu id="menu-2" size="large" imageMso="SmartArtAddShapeSplitMenu" label="Novo" screentip="Criar novo item, sem fontes de consulta" >
             <button id="btn-GR1Criar4" label="LNTR" imageMso="AdpOutputOperationsAddToOutput" onAction="MyRibbon.CallCriarLNTR" screentip="Criar novo código Lenght Neutral" />
+          </menu>
+          <menu id="menu-3" size="large" imageMso="AdpDiagramAddRelatedTables" label="Expandir" screentip="Expandir um item existente" >
+            <menuSeparator id="menu3-sp1" title="Atual como fonte" />
+            <button id="ExpandirCentro" label="Centro (PROF)" imageMso="RmsNavigationBarHome" onAction="MyRibbon.CallExpCentroPROF" screentip="Expandir centro de materiais PROF já criados" />
+            <menuSeparator id="menu3-sp2" title="Sem fonte" />
+            <button id="ExpandirCanalDist" label="Canais de Distribuição" imageMso="ArrowStyleGallery" onAction="MyRibbon.CallExpCanalDist" screentip="Expandir canal de distribuição de itens já criados" />
           </menu>
         </group>
         <group id="GroupSAPModificar1" label="SAP - Modificar"> 

@@ -24,16 +24,22 @@ Notas atualização 1.12:
     2.1 Corrigido problema quando tipo de material selecionado no SAP era diferente do material a ser modificado, isto gerava erro no Script.
 
     3. Estudos de Viabilidades:
-    3.1 Corrigido bug que quando um segundo novo projeto era criado, o campo de digitar o número não estava selecionado por padrão.
-    3.2 Ajustado hyperlink que é criado com um novo estudo.
+    3.1 Corrigido bug que quando um segundo novo estudo era criado, o campo de digitar o número não estava selecionado por padrão.
+    3.2 Ajustado hyperlink que é criado com um novo estudo, passando o vínculo de A1 para A44.
 
     4. Estrutura de Cadastros:
     4.1 Ajustado UserForm para cálculo do peso linear: Agora por padrão não é marcado "Descontar Costura" e não há valores nos campos para preenchimento.
-    4.2 Variavel Matriz de Setup: Ajustado valores de Geometria que estavam em desacordo com o sistema (espaçamento extre no final dos nomes)
+    4.2 Variavel Matriz de Setup: Ajustado valores de Geometria que estavam em desacordo com o sistema (espaçamento extra no final dos nomes)
     4.3 Bitola de Produção: Ajustada fórmula para busca da denominação da bitola, onde a referênica estava nas colunas erradas.
 
     5. Carga GPEAutomation: 
     5.1 Corrigido bug em que o usuário fica logado na ultima carga feita. Trocar a opção de "Fechar GPE" para "Logoff do GPE".
+
+    6 SAP Script Connection> PURLINS PROF
+    6.1 Ajustado campo "Condição de Estocagem" (ctxtMARA-RAUBE) de "30" para "0" conforme procedimento informado pela área responsável.
+
+    7. Planilha Cronus Add-In
+    7.1 Ajustada planilha do tipo XLSM para XLSB (planilha binária) para que fique mais leve ao utilizala. Nenhum impacto será sentido pelo usuário final.
 
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
