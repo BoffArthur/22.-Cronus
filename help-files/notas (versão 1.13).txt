@@ -8,9 +8,16 @@ Union
 Sistems
 
 >Novos Recursos:
-
+    1. SAP Script Connection
+    1.1 Transferidos módulos para aplicados:
+    1.1.1 Expandir canal de distribuição
+    1.1.2 Expandir centro de materiais PROF
 
 >Correção de recursos e bugs:
+    0. Cronus Add-In
+    0.1 Transferidas as Funções Cronus da guia "Fórmulas" para guia do Cronus™
+    0.1 Transferido o botão "Inserir Estilos" para guia "Página Inicial"
+    
     1. SAP Scipt Connection
     1.1 Em todos os workbooks foram corrigidos a variante AutomaticRun do tipo String para Variant.
     1.2 Em todos os workbooks foram corrigidos os antigos nomes CAS para Cronus.

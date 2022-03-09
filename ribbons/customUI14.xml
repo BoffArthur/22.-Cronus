@@ -1,18 +1,9 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
   <ribbon startFromScratch="false">
     <tabs>
-      <tab idMso="TabFormulas" > 
-        <group id="GroupCustomFormula" label="Funções Extras" insertAfterMso="GroupFunctionLibrary" > 
-          <menu id="MenuCustom1" size="large" label="Funções Cronus" imageMso="PivotTableOlapTools" >
-            <button id="btn-ProcX" label="ProcX" imageMso="ZoomToSelection" onAction="MyRibbon.btnInserirPROCX" screentip="Inserir função" />
-            <button id="btn-User" label="User" imageMso="DirectRepliesTo" onAction="MyRibbon.btnInserirUSER" screentip="Inserir função" />
-            <button id="btn-UnirTexto" label="Unir Texto" imageMso="TextEffectTracking" onAction="MyRibbon.btnInserirUNIRTEXTO" screentip="Inserir função"/>
-            <button id="btn-ConcSomar" label="Concatenar e Somar" imageMso="PivotShowDetails" onAction="MyRibbon.btnInserirCONCATENARSOMAR" screentip="Inserir função" />
-            <button id="btn-ExtLNTR" label="Extrair LNTR" imageMso="SmartArtOrganizationChartRightHanging" onAction="MyRibbon.btnInserirExt_LNTR" screentip="Inserir função" />
-            <button id="btn-CódigoSAP" label="Código SAP" imageMso="OutlineGroup" onAction="MyRibbon.btnInserirCODSAP" screentip="Inserir função" />
-            <button id="btn-ExtCome" label="Extrair Comentário" imageMso="ExportTextFile" onAction="MyRibbon.btnInserirExt_Comment" screentip="Inserir função" />
-          </menu>
-          <button id="btn-InsertStyles" label="Inserir Estilos" imageMso="GroupPivotTableStyles" onAction="MyRibbon.btnFormatar" screentip="Inserir estilos padrão" />
+      <tab idMso="TabHome" > 
+        <group id="CustomFormating" insertAfterMso="GroupStyles" > 
+          <button id="btn-InsertStyles" imageMso="GroupPivotTableStyles" onAction="MyRibbon.btnFormatar" screentip="Inserir estilo de cores e formatação padrão" />
         </group>
       </tab>
       <tab id="TabCronus" label="Cronus ™" insertAfterMso="TabDeveloper" >
@@ -62,6 +53,17 @@
           <button id="btn-GR4Excel3" label="Ficha Técnica (Tubos)" imageMso="ViewsReportView" size="large" onAction="MyRibbon.CallOpenWBFichaTecnicaRF" screentip="Criar nova ficha técnica para Tubos de RollForming" />
           <separator id="spr-excel2" />
           <button id="btn-GR4Excel4" label="Estudos de Viabilidades" imageMso="ReviseContents" size="large" onAction="MyRibbon.CallOpenWBEstudoViabilidade" screentip="Criar novo estudo de viabilidade" />
+        </group>
+        <group id="GroupCustomFormula" label="Funções" insertAfterMso="GroupFunctionLibrary" > 
+          <menu id="MenuCustom1" size="large" label="Funções Cronus" imageMso="PivotTableOlapTools" >
+            <button id="btn-ProcX" label="ProcX" imageMso="ZoomToSelection" onAction="MyRibbon.btnInserirPROCX" screentip="Inserir função" />
+            <button id="btn-User" label="User" imageMso="DirectRepliesTo" onAction="MyRibbon.btnInserirUSER" screentip="Inserir função" />
+            <button id="btn-UnirTexto" label="Unir Texto" imageMso="TextEffectTracking" onAction="MyRibbon.btnInserirUNIRTEXTO" screentip="Inserir função"/>
+            <button id="btn-ConcSomar" label="Concatenar e Somar" imageMso="PivotShowDetails" onAction="MyRibbon.btnInserirCONCATENARSOMAR" screentip="Inserir função" />
+            <button id="btn-ExtLNTR" label="Extrair LNTR" imageMso="SmartArtOrganizationChartRightHanging" onAction="MyRibbon.btnInserirExt_LNTR" screentip="Inserir função" />
+            <button id="btn-CódigoSAP" label="Código SAP" imageMso="OutlineGroup" onAction="MyRibbon.btnInserirCODSAP" screentip="Inserir função" />
+            <button id="btn-ExtCome" label="Extrair Comentário" imageMso="ExportTextFile" onAction="MyRibbon.btnInserirExt_Comment" screentip="Inserir função" />
+          </menu>
         </group>
         <group id="GroupHelp"> 
           <button id="Help" label="Ajuda" imageMso="CLViewDialogHelpID" size="large" onAction="MyRibbon.help" />
