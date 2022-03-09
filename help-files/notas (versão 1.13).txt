@@ -4,8 +4,12 @@ Control
 Resource
 Objects
 N 
-Union
+Useful
 Sistems
+
+Custom Resource Onto Native Useful Sistems
+Control Resource Object aNd Useful Sistems
+Control Resource Onto Native Useful Sistems
 
 >Novos Recursos:
     1. SAP Script Connection
@@ -15,8 +19,9 @@ Sistems
 
 >Correção de recursos e bugs:
     0. Cronus Add-In
-    0.1 Transferidas as Funções Cronus da guia "Fórmulas" para guia do Cronus™
-    0.1 Transferido o botão "Inserir Estilos" para guia "Página Inicial"
+    0.1 Transferidas as Funções Cronus da guia "Fórmulas" e botão "Inserir Estilos" para guia do Cronus™ grupo Funções
+    0.2 Traduzido o grupo "Excel workbooks" para "Pastas de trabalho".
+    0.3 Agrupado SAP Scipt Connection do grupo Criar em dois menus: Novo (com e sem fonte de consulta) e Expandir (com e sem fonte de consulta).
     
     1. SAP Scipt Connection
     1.1 Em todos os workbooks foram corrigidos a variante AutomaticRun do tipo String para Variant.
