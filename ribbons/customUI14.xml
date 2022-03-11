@@ -20,16 +20,17 @@
           </menu>
         </group>
         <group id="GroupSAPModificar1" label="SAP - Modificar"> 
-          <menu id="menu-id1" size="large" imageMso="TableSharePointListsModifyWorkflow" label="MM02" screentip="Modificar, Atualizar e Consultar itens na MM02" >
-            <button id="btn-GR2Modificar1" label="Atualizar Variante" imageMso="RecurrenceEdit" onAction="MyRibbon.CallMM02AtualizarMRP" screentip="Atualizar variante da MRP3" />
-            <button id="btn-GR2Modificar2" label="Grupo de Mercadorias" imageMso="MultiplePages" onAction="MyRibbon.CallMM02GRPMercadoria" screentip="Alterar Grupos de Mercadorias" />
-            <button id="btn-GR2Modificar3" label="Setor de Atividade" imageMso="RmsNavigationBar" onAction="MyRibbon.CallMM02SetorAtividade" screentip="Alterar setor de atividade" />
-            <button id="btn-GR2Modificar4" label="N.C.M." imageMso="DiagramStylesClassic" onAction="MyRibbon.CallMM02NCM" screentip="Alterar NCM" />
-            <button id="btn-GR2Modificar5" label="Hierarquia de Produto" imageMso="ModuleInsert" onAction="MyRibbon.CallMM02Hierarquia" screentip="Alterar Hierarquia de Produto" />
-            <button id="btn-GR2Modificar6" label="Cliente Responsável (Variante)" imageMso="AddOrRemoveAttendees" onAction="MyRibbon.CallMM02ClienteResponsavel" screentip="Alterar cliente responsavel" />
-            <button id="btn-GR2Modificar12" label="Depósito de Produção" imageMso="RelationshipDesignAllRelationships" onAction="MyRibbon.CallMM02DEPPROD" screentip="Alterar depósito de produção interno e externo da MRP2" />
+          <menu id="menu-MM02" size="large" imageMso="TableSharePointListsModifyWorkflow" label="MM02" screentip="Modificar, Atualizar e Consultar itens na MM02" >
+            <button id="btn-MM02AtualizarVariante" label="Atualizar Variante" imageMso="RecurrenceEdit" onAction="MyRibbon.CallMM02AtualizarMRP" screentip="Atualizar variante da MRP3" />
+            <button id="btn-MM02HierarquiaProd" label="Hierarquia de Produto" imageMso="ModuleInsert" onAction="MyRibbon.CallMM02Hierarquia" screentip="Alterar Hierarquia de Produto" />
+            <button id="btn-MM02SetordeAtividade" label="Setor de Atividade" imageMso="RmsNavigationBar" onAction="MyRibbon.CallMM02SetorAtividade" screentip="Alterar setor de atividade" />
+            <button id="btn-MM02ClienteResponsável" label="Cliente Responsável (Variante)" imageMso="AddOrRemoveAttendees" onAction="MyRibbon.CallMM02ClienteResponsavel" screentip="Alterar cliente responsavel" />
+            <button id="btn-MM02NCM" label="N.C.M." onAction="MyRibbon.CallMM02NCM" screentip="Alterar NCM" />
+            <button id="btn-MM02GrupodeMercadorias" label="Grupo de Mercadorias" onAction="MyRibbon.CallMM02GRPMercadoria" screentip="Alterar Grupos de Mercadorias" />
+            <button id="btn-MM02DepositoProducao" label="Depósito de Produção" onAction="MyRibbon.CallMM02DEPPROD" screentip="Alterar depósito de produção interno e externo da MRP2" />
+            <button id="btn-MM02Arredondamento" label="Valor Arredondamento (MRP1)" onAction="MyRibbon.CallMM02ValorArred" screentip="Alterar valor de arredondamento MRP 1" />
           </menu>
-          <menu id="menu-id2" size="large" label="CU60" imageMso="AdpDiagramAddTable" screentip="Modificar, Atualizar e Consultar tabelas da CU60" >
+          <menu id="menu-CU60" size="large" label="CU60" imageMso="AdpDiagramAddTable" screentip="Modificar, Atualizar e Consultar tabelas da CU60" >
             <menuSeparator id="separator-id1" title="Modificar Existente" />
             <button id="btn-GR2Modificar7" label="Largura (LNTR)" imageMso="DatabaseAccessBackEnd" onAction="MyRibbon.CallCU60AlterarLarguras" screentip="Alterar as larguras de tira e/ou bobina por LNTR" />
             <button id="btn-GR2Modificar8" label="Prematerial (LNTR)" imageMso="FileCompactAndRepairDatabase" onAction="MyRibbon.CallCU60AlterarMP" screentip="Alterar prematerial (VMAT) por LNTR" />

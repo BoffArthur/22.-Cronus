@@ -7,6 +7,7 @@ Custom Resource Onto Native Useful Sistems
     1.1 Transferidos módulos para aplicados:
     1.1.1 Expandir canal de distribuição
     1.1.2 Expandir centro de materiais PROF
+    1.2 Adicionado módulo aplicado para alteração do Valor De Arredondamento (MRP1)
 
 >Correção de recursos e bugs:
     0. Cronus Add-In
