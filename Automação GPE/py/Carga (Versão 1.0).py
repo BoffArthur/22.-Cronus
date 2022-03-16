@@ -94,7 +94,7 @@ class CargaAoGPE(): #PARTE 2: CARGA AO GPE (CONEXÃO SELENIUM + EDGEDRIVER)
 
     print("Gestão de Projetos de Engenharia / Carregando...")
     driver = webdriver.Edge()
-    driver.set_window_size(1567, 423)
+    driver.set_window_size(1920, 1080)
     driver.minimize_window() #minimizar janela
     driver.get("http://intranetmeincol/intranet/gpe/relatorio_acompanhamento.php") #ir para URL definida
     #driver.maximize_window() #maximizar janela
@@ -130,7 +130,10 @@ class CargaAoGPE(): #PARTE 2: CARGA AO GPE (CONEXÃO SELENIUM + EDGEDRIVER)
     print('         Operação 3: ')
 
     if driver.find_element(By.ID, "operacao_slitter").is_selected() == False: driver.find_element(By.ID, "operacao_slitter").click() #somente selecionar se estiver desmarcado
-    if driver.find_element(By.ID, "operacao_"+ maquina1GPE ).is_selected() == False: driver.find_element(By.ID, "operacao_"+ maquina1GPE ).click() #somente selecionar se estiver desmarcado
+    if driver.find_element(By.ID, "operacao_"+ maquina1GPE ).is_selected() == False: 
+        driver.find_element(By.ID, "operacao_"+ maquina1GPE ).click() #somente selecionar se estiver desmarcado
+        if maquina1GPE == "Formadora" and driver.find_element(By.ID, "operacao_Formadora").is_selected()==False: driver.find_element(By.ID, "operacao_Perfiladeira").click()
+        if maquina1GPE == "Perfiladeira" and driver.find_element(By.ID, "operacao_Perfiladeira").is_selected()==False: driver.find_element(By.ID, "operacao_Perfiladeira").click()
     dropdown = driver.find_element(By.ID, "ano_fiscal") #define variavel para ano fiscal   
     dropdown.find_element(By.XPATH, "//option[. = '2022']").click() #define o ano fiscal corrente
     driver.find_element(By.ID, "salvar").click() #Salvar

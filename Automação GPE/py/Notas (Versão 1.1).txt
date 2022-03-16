@@ -7,9 +7,12 @@ Features added on Version 1.1
 
     3. Alterado a forma que o código faz a marcação do tipo de operação. Não será mais criada paridades que contenham Formadora e Perfiladeira como operação 2 ao mesmo tempo
 
+    4. Agora permitindo larguras de tira com valores com virgula
+
 Features to add on Version 1.1
 
     1. Adicionar controle para seleção do ano fiscal mais recente disponivel no GPE.
+    2. Tornar referencias relativas em referencias globais, permitindo executar o Cronus em outros locais fora a pasta raiz da Automação GPE.
 
 And Beyond:
 

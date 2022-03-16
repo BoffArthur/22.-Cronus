@@ -716,6 +716,36 @@
     "id": "82a19c1b-4de1-4b1a-97cf-09ed51c31854",
     "name": "Teste Upload PDF",
     "commands": [{
+      "id": "1f9cf9c4-c5a5-42e0-a13c-26d51f150c87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AE",
+      "targets": [
+        ["linkText=AE", "linkText"],
+        ["css=#menubar > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'AE')]", "xpath:link"],
+        ["xpath=//ul[@id='menubar']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'autorizacao_engenharia.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c8f6b94-506a-4c88-bd9c-750c6520d9c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sair",
+      "targets": [
+        ["linkText=Sair", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sair')]", "xpath:link"],
+        ["xpath=//div[@id='wrapUsuario']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sair.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sair')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
       "id": "61abea60-c28b-4079-97e0-056ca51db660",
       "comment": "",
       "command": "open",
@@ -1080,6 +1110,21 @@
         ["xpath=//a[contains(@href, 'viabilidade_industrial.php?projeto=2268&item=11709')]", "xpath:href"],
         ["xpath=//table[2]/tbody/tr[7]/td/a", "xpath:position"],
         ["xpath=//a[contains(.,'2.3 - Viabilidade Industrial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8488d015-713d-4586-ab79-b6eaa8361f84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sair",
+      "targets": [
+        ["linkText=Sair", "linkText"],
+        ["css=#wrapUsuario > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sair')]", "xpath:link"],
+        ["xpath=//div[@id='wrapUsuario']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'sair.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sair')]", "xpath:innerText"]
       ],
       "value": ""
     }]

@@ -9,6 +9,10 @@ Custom Resource Onto Native Useful Sistems
     1.1.2 Expandir centro de materiais PROF
     1.2 Adicionado módulo aplicado para alteração do Valor De Arredondamento (MRP1)
 
+    2. Cronus - GPE Automation (Atualizado por meio do hotfix 1.13.1 direto na pasta da automação)
+    2.1 Atualizado código para cargas de projetos ao GPE. Agora o programa possui uma janela GUI com entrada de Usuário e Senha.
+    2.2 Com a nova GUI, fazer a carga de vários projetos ficou mais fácil já que basta inserir o código do novo projeto e carregar, sem precisar fechar e abrir o programa.
+
 >Correção de recursos e bugs:
     0. Cronus Add-In
     0.1 Transferidas as Funções Cronus da guia "Fórmulas" e botão "Inserir Estilos" para guia do Cronus™ grupo Funções
