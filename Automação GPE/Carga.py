@@ -1,8 +1,9 @@
+print('C.R.O.N.U.S.... Starting the application and decrompressing the required files...')
 #Carga.py serve como automação de carga de dados das planilhas de viabilidades para o GPE. Aí surge o nome GPEAutomation
 #Deve ser executado atraves do arquivo .exe disponivel no mesmo diretório deste aquivo.
 #Para lançar uma nova versão, o código a ser executado é o abaixo para a biblioteca PyInstaller
 # c:/Users/arthur.boff/AppData/Local/Programs/Python/Python310/Scripts/pyinstaller -c -F --icon Carga.ico carga.py
-#
+# c:/Users/arthur.boff/AppData/Local/Programs/Python/Python310/Scripts/pyinstaller -c -D --icon Carga.ico carga.py
 #
 #PARTE 0: DEFINIÇÃO DAS VARIAVEIS, BIBLIOTECAS E INPUTS
 from cgitb import text
@@ -35,7 +36,12 @@ from sys import exit
 import os
 import time 
 
-
+#sobre um nível da pasta atual
+AutomationDir = str(os.getcwd())
+while AutomationDir[-1] != '\\':
+    AutomationDir = AutomationDir[:-1]
+AutomationDir = AutomationDir[:-1]
+os.chdir(AutomationDir)
 
 #slpah screen window
 splash_win= tk.Tk()

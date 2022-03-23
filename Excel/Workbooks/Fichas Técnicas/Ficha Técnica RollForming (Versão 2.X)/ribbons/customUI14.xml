@@ -1,14 +1,9 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
   <ribbon startFromScratch="false">
     <tabs>
-      <tab id="customTab" label="Xvba" insertBeforeMso="TabHome" >
-        <group id="g-id" label="Label"> 
-          <gallery id="gallery" label="Gallery" itemWidth="88" itemHeight="68" size="large" imageMso="HappyFace" >
-            <item id="item1" image="Desert" />
-            <item id="item2" image="Forest" />
-            <item id="item3" image="Toucan" />
-            <item id="item4" image="Tree" />
-          </gallery>
+      <tab id="customTab" label="Ficha Ténica" insertBeforeMso="TabHome" >
+        <group id="GrupoAutomacao" label="Automação"> 
+          <button id="GerarPDF" label="Gerar PDF" imageMso="PublishToPdfOrEdoc" size="large" onAction="MyRibbon.GerarPDF" screentip="Gerar PDF deste documento e salvar na pasta raiz das fichas técnicas." />
         </group>
       </tab>
     </tabs>
