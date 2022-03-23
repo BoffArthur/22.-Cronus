@@ -22,16 +22,17 @@ Custom Resource Onto Native Useful Sistems
     1. SAP Scipt Connection
     1.1 Em todos os workbooks foram corrigidos a variante AutomaticRun do tipo String para Variant.
     1.2 Em todos os workbooks foram corrigidos os antigos nomes CAS para Cronus.
+    1.3 Adicionado seção "Atual Como Fonte" para realizar a expansão de centros e expansão de canais de distribuição.
 
     2. Estudos de Viabilidades:
     2.1 Ajustado preço de mão de obra (MO) de rolos de conformação de R$1800,00 para R$2000,0.
+    2.2 Ajustado tamanho das colunas da aba Investimentos
 
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
     3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
     4. SAP Script Connection:
     4.1 Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
-    4.2 Adicionar seção "Atual Como Fonte" para realizar a expansão de centros e expansão de canais de distribuição.
     4.3 Corrigir bug que ao decidir não carregar e cadastrar, todas as transações não rodam corretamente (somente para as pastas que necessitam de fonte de consulta)
 
 >And Beyond:
