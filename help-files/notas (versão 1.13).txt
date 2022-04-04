@@ -9,6 +9,14 @@ Custom Resource Onto Native Useful Sistems
     1.1.2 Expandir centro de materiais PROF
     1.2 Adicionado módulo aplicado para alteração do Valor De Arredondamento (MRP1)
 
+    2. Estudos de Viabilidades
+    2.1 Adicionado status ao gerar arquivos XLSX ou PDF para que o usuário saiba se o processo foi concluído.
+    2.2 Adicionado possibilidade de gerar arquivos XLSX de carga das máquinas F01 a F06.
+    2.3 Adicionada recuso para cálculo de tempo de corte em serra (circular e fita).
+
+    3. Cronus - Carga ao GPE
+    3.1 Adicionada carga de projetos das máquinas F01 a F06
+
 >Correção de recursos e bugs:
     0. Cronus Add-In
     0.1 Transferidas as Funções Cronus da guia "Fórmulas" e botão "Inserir Estilos" para guia do Cronus™ grupo Funções
@@ -23,6 +31,7 @@ Custom Resource Onto Native Useful Sistems
     2. Estudos de Viabilidades:
     2.1 Ajustado preço de mão de obra (MO) de rolos de conformação de R$1800,00 para R$2000,0.
     2.2 Ajustado tamanho das colunas da aba Investimentos
+    2.3 Investimentos de um estudo agora fica atrelado a aba "investimentos". Todos os investimentos serão resumidos (automaticamente) no estudo e detalhados (manualmente) na aba "investimentos".
 
     3. Estrutura de Cadastros:
     3.1 Ajustado atalho para função "Dados" de CTRL+SHIFT+L para CTRL+SHIT+P

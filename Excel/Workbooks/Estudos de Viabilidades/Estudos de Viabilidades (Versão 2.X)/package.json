@@ -2,7 +2,7 @@
     "name": "xvba-app",
     "version": "1.0.0",
     "description": "A XVBA App",
-    "main": "Estudos de Viabilidades (Versão 2.0).xlsm",
+    "main": "index.js",
     "author": "LocalSmart",
     "license": "ISC",
     "dependencies": {
