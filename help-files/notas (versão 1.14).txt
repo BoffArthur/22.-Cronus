@@ -1,0 +1,22 @@
+Notas atualização 1.14:
+
+Custom Resource Onto Native Useful Sistems
+
+>Novos Recursos:
+
+
+>Correção de recursos e bugs:
+
+
+>Correções/Recursos em espera:
+    1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+    2. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+    
+    3. SAP Script Connection:
+    3.1 Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+    3.2 Corrigir bug que ao decidir não carregar e cadastrar, todas as transações não rodam corretamente (somente para as pastas que necessitam de fonte de consulta)
+
+>And Beyond:
+    1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possíveis entre dados selecionados pelo usuário.
+    2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+    3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistência" já existente para também verificar os dados preenchidos na estrutura em si.
