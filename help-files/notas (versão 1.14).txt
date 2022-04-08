@@ -3,10 +3,27 @@ Notas atualização 1.14:
 Custom Resource Onto Native Useful Sistems
 
 >Novos Recursos:
-
+    1. Estudos de Viabilidades
+    1.1 Grupo de Auxílio:
+    1.1.1 Nova janela para cálculo da bitola de origem.
+    1.1.2 Nova janela com a tabela de conversão de milimetros para polegadas.
+    1.1.3 Nova janela para converter velocidades
+    1.1.4 Nova janela para cálculo de Fator de Dobra K
+    1.1.5 Nova janela para cálculo de Largura de Tira de Perfis
+    1.2 Grupo Estudos
+    1.2.1 Agrupado novos estudos em um slipbutton (ao clicar, o estudo padrão é RollForming)
+    1.2.2 Adicionado botão para deletar estudos
+    1.2.3 Adicionado botão para alterar o número de um estudo já criado
+    1.3 Grupo Navegação
+    1.3.1 Adicionado tabelas para controle de estudos criados
 
 >Correção de recursos e bugs:
+    1. Estudos de Viabilidades
+    1.1 Corrigido diversos erros ortográficos
+    1.2 Corrigido erro ao inserir valores de tempos calculados através do recurso calcular "tempo de corte".
 
+    2. SAP Script Connection
+    2.1 Criar Prematerial: Ajustado os valores do tipo de MRP para "M3" (DISLS) e valor de arredondamento para "25000" (BSTRF) no cadastro de bobinas.
 
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
