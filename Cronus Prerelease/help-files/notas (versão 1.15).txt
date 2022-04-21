@@ -15,6 +15,9 @@ Custom Resource Onto Native Useful Sistems
     1. Estrutura de Cadastros
     1.2 Consulta da tabela de variantes: A tabela de variantes do P01 foi modificada e por conseguinte a consulta disponível nas estruturas de cadastros foi atualizada.
 
+    2. Estudos de Viabilidades
+    2.1 Corrigido erro ao inserir os valores de tempo de operação do corte por serra.
+
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
     2. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
