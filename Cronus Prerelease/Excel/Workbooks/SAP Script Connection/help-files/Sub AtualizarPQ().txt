@@ -1,0 +1,53 @@
+Sub SelectThisArchive()
+    '
+    ' DEfinir o arquivo atual como origem de consulta do PowerQuery
+    '
+    Dim FilePath As String
+
+    Application.ActiveWorkbook.Save
+    
+    FilePath = Application.ActiveWorkbook.path    'salva o local do arquivo ativo
+    
+    If FilePath = "" Then                         'se o arquivo nao estiver salvo em local algum, retornar a msg de erro ao usuário
+        msgem = MsgBox("Local de salvamento deste arquivo não encontrado. As seguintes soluções são possíveis:" & vbCrLf & _
+                "" & vbCrLf & _
+                "- Salvar a pasta de trabalho." & vbCrLf & _
+                "- Alterar a pasta raiz da pasta de trabalho para um local válido." & vbCrLf & _
+                "" & vbCrLf & _
+                "Para mais informações contatar o Administrador do sistema.", vbCritical, "Cronus")
+        ThisWorkbook.Close
+        Exit Sub
+    Else                                          ' Caso esteja salvo então continuar a consulta
+        FilePath = Application.ActiveWorkbook.FullName
+        ThisWorkbook.Sheets("Listas de Dados").Range("A7").Value = FilePath 'define a origem da consulta do PowerQuery como o local do arquivo ativo
+        Call AtualizarPQ
+    End If
+    
+End Sub
+Sub AtualizarPQ()
+    '
+    ' Atualizar Power Query da consulta
+    '
+    On Error GoTo ErrorHandlerMSG
+    Dim RowValue As String
+    Dim I      As String
+    
+    Application.ScreenUpdating = False            'deativa a atualização de tela
+    
+    ThisWorkbook.Worksheets("Consulta").ListObjects("Estrutura_P01").QueryTable.Refresh BackgroundQuery:=False 'Atualizar Power Query com a consulta de estrutura
+    ThisWorkbook.Worksheets("Consulta").ListObjects("Estrutura_P01").Range.AutoFilter Field:=2, Criteria1:="NEW" 'Filtrar a consulta somente com novos cadastros
+    
+    Application.ScreenUpdating = True             'ativa a atualização de tela
+    UserForm3.Show
+    Exit Sub
+    
+ErrorHandlerMSG:
+    MsgBox1 = MsgBox("Ocorreu um erro ao fazer a consulta com o Power Query do arquivo desejado. " & vbCrLf & _
+              "Os seguintes erros são possiveis:" & vbCrLf & _
+              "" & vbCrLf & _
+              "- A pasta raiz está fora do modelo padrão aceitável. Deve-se utilizar o arquivo padrão do Cronus para tal." & vbCrLf & _
+              "- As permissões de privacidade das fórmulas do Power Query estão mais restritas do que o necessário para o Cronus. Deve-se alterar para um nível menor dentro do Power Query." & vbCrLf & _
+              "" & vbCrLf & _
+              "Para mais informações contatar o Administrador do sistema.", vbCritical, "Cronus")
+    
+End Sub
