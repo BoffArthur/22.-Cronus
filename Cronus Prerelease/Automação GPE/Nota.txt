@@ -1,9 +1,0 @@
-Esta pasta é reservada exclusivamente para a automação do GPE. Todos os dados que aqui são salvos não devem ser alterados ou exlcuídos sem contatar os desenvolvedores.
-
-Automação sendo desenvolvida com Excel, VBA, Python, Selenium e Microsoft Edge.
-
-Arthur Boff - Arthur.Boff@voestalpine.com
-Cristian Garcia - Cristian.Garcia@voestalpine.com
-
-CAS - Controle e Automação de Sistemas
-

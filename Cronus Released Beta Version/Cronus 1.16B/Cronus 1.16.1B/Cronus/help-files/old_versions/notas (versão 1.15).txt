@@ -1,0 +1,45 @@
+Notas atualização 1.15:
+
+Custom Resource Onto Native Useful Sistems
+
+>Novos Recursos:
+    0. Tamanho do programa foi otimizado.
+
+    1. SAP Script Connection
+    1.1 Adicionado programa para liberação de cadastros para venda.
+    1.2 Adicionado programa para alterar bitola (variante) nos centros 0581/0582 de cadastros PROF.
+
+    2. Estudos de Viabilidades
+    2.1 Recurso para inserir novos estudos agora pode inserir também: Responsável (com opção para Usuário do Office), Item, Cliente e Segmento. Estes dados a mais são opcionais.
+    2.2 Corrigido erro que ao salvar planilha poderia ser alterada para XLSX sem que o usuário notavelmente desejasse tal ação (Via Hotfix 1.14.1).
+    2.3 Todos os dados das Listas de Dados são agora organizados em uma única tabela para melhor entendimento das informações lá inseridas.
+
+    3. Estrutura de Cadastros
+    3.1 Adicionada macro para buscar dados de chaves LNTR.
+
+>Correção de recursos e bugs:
+    1. Estrutura de Cadastros
+    1.2 Consulta da tabela de variantes: A tabela de variantes do P01 foi modificada e por conseguinte a consulta disponível nas estruturas de cadastros foi atualizada.
+
+    2. Estudos de Viabilidades
+    2.1 Corrigido erro ao inserir os valores de tempo de operação do corte por serra.
+
+    3. SAP Script Connection
+    3.1 Padronizado todas UserForm
+    3.2 Corrigido bug que ao decidir não carregar e cadastrar, todas as transações não rodam corretamente (somente para as pastas que necessitam de fonte de consulta) 
+    3.3 Erro de privacidade do Power Query agora será indicado ao usuário para melhor solucionar. Antes isso era tratado como erro genérico 404 Not Found.
+    3.4 Ajustado o código de consulta de novas estruturas para deixar mais otimizado e com menos erros.
+    3.5 Nos itens de consulta agora o botão cancelar também vai fechar a pasta SAPConnection.
+
+>Correções/Recursos em espera:
+    1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+    2. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+    
+    3. SAP Script Connection:
+    3.1 Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+
+>And Beyond:
+    1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possíveis entre dados selecionados pelo usuário.
+    2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+    3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistência" já existente para também verificar os dados preenchidos na estrutura em si.
+    4. Reconhecimento de componentes de montagem no solidworks na lista de partnumber para conjuntos soldados.

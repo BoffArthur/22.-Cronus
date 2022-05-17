@@ -1,0 +1,32 @@
+Notas atualização 1.10:
+OBS: As versão serão controladas com 3 tipos de atualizações (1°.2°.3° ou 1.24.10 por exemplo). 
+1° Adição de Recursos Majoritários, adição de recursos minoritários e correção de recursos e bugs
+2° Adição de recursos minoritários e correção de recursos e bugs.
+3° Correção de recursos e bugs.
+
+>Novos Recursos:
+1. Manual de Usuário: Adicionada seção "Configurações Iniciais" para "Excel" e "SAP Logon"
+
+>Correção de recursos e bugs:
+1. Botão "Ajuda" antes disponivel no Workbook "Estudos de Viabilidade" foi transferido ao Cronus Add-In. Isto faz seu acesso ser mais prático.
+2. Planilha de Liberação de Cadastros: ajustada subrotina SALVAR, agora em vez de limpar os dados do range A:A ela vai deletar este range. Somente limpar estava gerando certos erros, Excel continuava a entender como células ativas, mesmo não sendo.
+3. Estrutura de cadastros: Ajustar o nome não reconhecido "IMPORTADO" para o correto "IMPORTADA" no campo "ORIGEM DA CHAPA".
+4. Estudos de Viabilidades: Ajustado a variant "XFileName" do tipo String para Variant. Isto estava gerando problemas para salvar o Workbook no formato desejado.
+5. Estudos de Viabilidades: Função "Gerar arquivo para carga" não reconhecia corretamente qual a tira que deveria ser usada para carga (entre Conformação comum e DirectForming).
+6. Add-In installer: corrigido problema que gerava ao tentar executar e instalar o Cronus.
+7. Estudos de Viabilidade: Ajustada porcentagem de perda dos conjuntos soldados de 1,50% para 1,0%.
+8. Estudos de Viabilidade> Conjuntos Soldados: Adicionar o campo para preenchimento de preço de pintura ou galvanização, visando o arquivo para carga com Cronus.
+9. SAP Connection> Alterar bloqueio geral: Ajustada fórmula USER para especifico do workbook TWUSER.
+10. SAP Connection> Criar LNTR: Alterar a cor da célula onde o código criado é exibido.
+11. Estudos de viabilidades: Agora a janela de inserção de novo estudo somente permite colocar números, previnindo assim que o usuário coloque caracteres incorretos.
+
+>Correções/Recursos em espera:
+1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+2. Estudos de Viabilidades: Adicionar recurso para impressão automatica do PDF ao gerar o arquivo de carga com Cronus.
+3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+4. Estrutura de Cadastros: Adicionar legenda de cores para auxiliar o usuário no preenchimento dos campos.
+
+>And Beyond:
+1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
+2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistencia" para também verificar os dados preenchidos na estrutura em si.
