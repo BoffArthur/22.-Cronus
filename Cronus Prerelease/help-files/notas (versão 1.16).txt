@@ -10,6 +10,7 @@ Custom Resource Onto Native Useful Sistems
     1.1 ZM01_After Operation: Aumentado número máximo de cadastros em uma rodada de 36 para 60.
     1.2 Adicionado módulo de criação de requisições de compra para imobilizado.
     1.3 Adicionado módulo para expansão de depósitos de produção (sem fonte de consulta)
+    1.4 Adicionado módulo para alteração dos textos breves (descrição) dos produtos.
 
     2. Liberação de Cadastros
     2.1 Ajustado layout da Ribbon.
@@ -17,18 +18,27 @@ Custom Resource Onto Native Useful Sistems
 >Correção de recursos e bugs:
     1. SAP Script Connection
     1.1 Ajustado erro em fórmula que novos cadastros de beneficiamento não contemplavam o "Grupo de Classificação Contábil do Material" (ctxtMVKE-KTGRM) como 20.
-    1.2 AJustado bug onde um código residual causava falha de falta de memória ao executar uma ação com funcionalidades de VBA.
+    1.2 AJustado bug onde um código residual causava falha de falta de memória ao executar uma ação com funcionalidades de VBA (ainda ocorre, porém com frequência menor).
     1.3 AJustadas diversas pastas de trabalho que continham cores incorretas nas células de preenchimento.
     1.4 Pastas de trabalho para modificação de itens tiveram o manipulador de erros melhorado, contemplando mais alternativas ao usuário.
     1.5 Ajustado Itens subcon faltando ZM01 nos controles de qualidade do mestre de materiais.
+    1.6 Ajustado layout da janela que indicava a porcentagem de conclusão dos processos.
+    1.7 Adicionado tratamento de erro para quando nenhum mandante do SAP estiver com login.
+    1.8 Ajustada messagem de conexão ao SAP. Agora inclui informações caso o usuário não deseje fazer a conexão (opção "não")
+    1.9 Ajustada messagem de aviso para mais de um mandante aberto
 
     2. Estudos de Viabilidades
     2.1 Ajustado os cálculos de custo por ton dos conjuntos soldados (processo de terceiro)
     2.2 Bitola de origem: calculo da segunda parte não funcionando ok
     2.3 Ajustadas Fórmulas de itens rollforming não funcionando ok após a atualização para tabela única
+    2.4 Aprimorado código que bloqueava modo de salvamento da pasta de trabalho para avisar quando ela não for salva corretamente.
+    2.5 Ajustado erro na validação de dados da perda padrão de máquina.
+    2.6 Ajustada fórmula de tempo de setup para máquinas de Roll Forming.
+    2.7 Ajustada validação de dados do campo "Estágios de Conformação".
 
     3. Estrutura de Cadastros
     3.1 Ajustado erro onde tempo operação corte 6 resultava sempre em 0.
+    3.2 Aprimorado código que bloqueava modo de salvamento da pasta de trabalho para avisar quando ela não for salva corretamente.
 
 >Correções/Recursos em espera:
     1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
@@ -42,3 +52,4 @@ Custom Resource Onto Native Useful Sistems
     2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
     3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistência" já existente para também verificar os dados preenchidos na estrutura em si.
     4. Reconhecimento de componentes de montagem no solidworks na lista de partnumber para conjuntos soldados.
+

@@ -1,10 +1,10 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} UserForm2 
-   Caption         =   "Executando Scrip. Aguarde..."
-   ClientHeight    =   855
+   Caption         =   "Cronus"
+   ClientHeight    =   1320
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   5685
+   ClientWidth     =   5895
    OleObjectBlob   =   "UserForm2.frx":0000
    StartUpPosition =   1  'CenterOwner
 End
