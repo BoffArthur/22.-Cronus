@@ -1,0 +1,39 @@
+Notas atualização 1.11:
+
+>Novos Recursos:
+1. SAP Script Connection> Not Aplied> Alterar Bitola (Variante): Adicionado módulo não aplicado para alterar a bitla dentro da variante (MRP3).
+2. Estudos de Viabilidades: Adicionado botão para gerar arquivo PDF dos estudos feitos.
+3. Manual de Usuário: Adicionada seção para Criação de PDF nos estudos de viabilidades.
+
+>Correção de recursos e bugs:
+1. Liberação de Cadastros: 
+1.1 Alterada Userform para lista de emails ser editavel pelo usuário final.
+1.2 Corrigido gerador da numeração dos arquivos e títulos que estava com divergencias, gerando sempre o mesmo número 1641.
+
+2. Add-In>Inserir Estilos:
+2.1 Pasta padrão dos estilos foi movida ao diretório "$\Excel\Add-In\Cronus ™\ Cronus_styles models for Excel.xlsm"
+
+3. Estrutura de Cadastros:
+3.1 Propriedade da aba CAS P01 alterada para VeryHidden. Em atuazações futuras a possivel exclusão está sendo avaliada.
+3.2 Adicionada legenda de cores para auxiliar o usuário no preenchimento dos campos.
+3.3 Corrigida fórmula TWCODSAP onde o argumento opcional "Sequencia" não era reconhecido quando não informado.
+3.4 Atualizada lista F_RUESTBLOCK conforme dados da Tabela de Variantes.
+
+4. Estudos de Viabilidades:
+4.1 Corrigido botão para gerar o arquivo de carga com Cronus que não estava aparecendo na versão 1.10.
+4.2 Corrigida tela para seleção dos itens a serem gerados. Agora em vez de digitar o usuário tem que selecionar o item que desejar.
+4.3 Ajustada unidade de medida do campo "Tempo de Produção" de [min/Ton] para [Horas].
+
+5. SAP Connection> [MM01 PROF], [ZM01 AO], [ZM01 PURLINS], [MM01 PURLINS PROF]: 
+5.1 Ajustado campo "Grupo Classe Contabil" (ctxtMVKE-KTGRM) onde ele não alterava o valor "01" para "20" quando o item sendo cadastrado era do setor 68-Beneficiamento (serviço)
+5.2 Atualizados os estilos de cores padrão.
+
+>Correções/Recursos em espera:
+1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+3. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+4. SAP Script Connection: Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+
+>And Beyond:
+1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possiveis entre dados selecionados pelo usuário.
+2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistencia" para também verificar os dados preenchidos na estrutura em si.

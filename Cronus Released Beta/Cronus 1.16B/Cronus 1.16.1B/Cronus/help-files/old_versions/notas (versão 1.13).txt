@@ -1,0 +1,59 @@
+Notas atualização 1.13:
+
+Custom Resource Onto Native Useful Sistems
+
+>Novos Recursos:
+    1. SAP Script Connection
+    1.1 Transferidos módulos para aplicados:
+    1.1.1 Expandir canal de distribuição
+    1.1.2 Expandir centro de materiais PROF
+    1.2 Adicionado módulo aplicado para alteração do Valor De Arredondamento (MRP1)
+
+    2. Estudos de Viabilidades
+    2.1 Adicionado status ao gerar arquivos XLSX ou PDF para que o usuário saiba se o processo foi concluído.
+    2.2 Adicionado possibilidade de gerar arquivos XLSX de carga das máquinas F01 a F06.
+    2.3 Adicionada recuso para cálculo de tempo de corte em serra (circular e fita).
+
+    3. Cronus - Carga ao GPE
+    3.1 Adicionada carga de projetos das máquinas F01 a F06
+
+>Correção de recursos e bugs:
+    0. Cronus Add-In
+    0.1 Transferidas as Funções Cronus da guia "Fórmulas" e botão "Inserir Estilos" para guia do Cronus™ grupo Funções
+    0.2 Traduzido o grupo "Excel workbooks" para "Pastas de trabalho".
+    0.3 Agrupado SAP Scipt Connection do grupo Criar em dois menus: Novo (com e sem fonte de consulta) e Expandir (com e sem fonte de consulta).
+    
+    1. SAP Scipt Connection
+    1.1 Em todos os workbooks foram corrigidos a variante AutomaticRun do tipo String para Variant.
+    1.2 Em todos os workbooks foram corrigidos os antigos nomes CAS para Cronus.
+    1.3 Adicionado seção "Atual Como Fonte" para realizar a expansão de centros e expansão de canais de distribuição.
+
+    2. Estudos de Viabilidades:
+    2.1 Ajustado preço de mão de obra (MO) de rolos de conformação de R$1800,00 para R$2000,0.
+    2.2 Ajustado tamanho das colunas da aba Investimentos
+    2.3 Investimentos de um estudo agora fica atrelado a aba "investimentos". Todos os investimentos serão resumidos (automaticamente) no estudo e detalhados (manualmente) na aba "investimentos".
+
+    3. Estrutura de Cadastros:
+    3.1 Ajustado atalho para função "Dados" de CTRL+SHIFT+L para CTRL+SHIT+P
+    3.2 Atualizados todos os dados de fontes de consultas
+    3.3 Ajustada fórmula para itens PROF onde a sequencia estava com referência ao campo A.O. e agora passou ao campo Chave LNP.
+    3.4 Ajustada validação de dados para o campo bitola onde estava buscando os valores da denominação e não os visuais.
+    3.5 Ajustada menssagem da função "Dados" quando nenhuma lista de dados era encontrada.
+
+    4. Liberação de Cadastros:
+    4.1 Adicionado participante da área Fiscal na MailingList.
+    4.2 Ajustada função para inserir o nome do usuário onde o nome não era identificado e o nome do arquivo resultante saia errado.
+    4.3 AJustada função para revisar antes de enviar, onde o email era enviado sem deixar a revisão pelo usuário.
+
+>Correções/Recursos em espera:
+    1. Fichas Técnicas: Adicionar fichas técnicas de perfis Valeno.
+    2. Instalador: Arrumar o instalador do programa para além de instalar os arquivos necessários, fazer a adição do Add-In no Excel automaticamente.
+    
+    3. SAP Script Connection:
+    3.1 Adicionar módulo aplicado para cadastro dos perfis PURLINS no padrão PROF.
+    3.2 Corrigir bug que ao decidir não carregar e cadastrar, todas as transações não rodam corretamente (somente para as pastas que necessitam de fonte de consulta)
+
+>And Beyond:
+    1. Novo recurso para combinação de valores a ser adicionado no Add-In. Fazer todas as combinações possíveis entre dados selecionados pelo usuário.
+    2. Fichas Técnicas: Adicionar fichas técnicas para produtos agregados (estudo sobre possibilidade da implementação deste recurso ainda necessário)
+    3. Estrutura de Cadastros: Limitar preenchimento de certos campos. Expandir recurso "Verificação de Ampla Consistência" já existente para também verificar os dados preenchidos na estrutura em si.
